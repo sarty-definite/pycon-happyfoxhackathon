@@ -1,9 +1,5 @@
 # PyCon25 Hackathon: Intelligent Support Ticket Assignment System
 
-Welcome to the PyCon25 Hackathon project! 🚀
-
-Once you are done with the hackathon, share your github link here: https://forms.gle/gnR62EoZUfeA8zqJ9
-
 ## 📋 Project Overview
 
 ### Problem Statement
@@ -39,59 +35,16 @@ Your solution should generate ticket assignments with the following fields:
 - **Optional:**
    - Rationale/Justification for the assignment
 
-
-## 🎯 Evaluation Criteria
-
-Your solution will be judged on:
-
-1. **Assignment Effectiveness** 
-   - How well tickets are matched to agent skills
-   - Likelihood of successful resolution
-
-2. **Prioritization Strategy**
-   - Creative use of ticket and agent attributes
-   - Intelligent priority scoring
-
-3. **Load Balancing**
-   - Fair distribution of workload
-   - Agent availability management
-
-4. **Performance & Scalability**
-   - Cost efficiency of the approach
-   - Ability to handle large datasets
-
-## 🏗️ Project Structure
-
-```
-pycon25-hackathon/
-├── dataset.json           # Input data (agents and tickets)
-├── output_result.json     # Expected output
-├── README.md             # This file
-└── [your solution files] # Your implementation
-```
-
-## 📈 Success Metrics
-
-Your solution should optimize for:
-- **Resolution Rate**: Tickets assigned to skilled agents
-- **Response Time**: Efficient agent utilization
-- **Workload Distribution**: Balanced assignment across team
-- **Scalability**: Performance with increasing data size
-
-## 🤝 Contributing
-
-This is a hackathon project - unleash your creativity and build an innovative solution!
-
----
-
-**Happy Hacking!** 🎉
-
 ## Images
 
 <img width="1609" height="981" alt="image" src="https://github.com/user-attachments/assets/697d85eb-9a0b-48e1-a634-a06ae638f7b9" />
 
 ## Future Scope
 ### 🚀 **Future Scope - Key Enhancement Areas**
+
+Creating a fuzzy logic which breaks down the ticket into topics and assigning the existing ticket for each agent based on their skill set.
+After assignment the float value would then be updated based of their workload. 
+For each ticket, complexity would be arranged for each agent and setting up trends based on their past resolutions.
 
 #### 📊 **Data-Driven Intelligence**
 - Historical performance analytics (resolution times, success rates)
